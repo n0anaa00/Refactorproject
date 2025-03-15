@@ -1,0 +1,24 @@
+---
+
+### **📌 2. `setup.py`**
+Package installer script.  
+
+```python
+from setuptools import setup, find_packages
+
+setup(
+    name="pyrefactorx",
+    version="0.1",
+    packages=find_packages(),
+    install_requires=[
+        "fastapi",
+        "uvicorn",
+        "astor",
+        "pytest"
+    ],
+    entry_points={
+        "console_scripts": [
+            "pyrefactorx=pyrefactorx.cli:main"
+        ]
+    }
+)

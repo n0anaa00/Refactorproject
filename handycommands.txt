@@ -1,0 +1,13 @@
+
+----
+CLI tool run:
+python swiftrefactor/cli.py examples/before_refactor.py
+
+
+----
+Using API:
+uvicorn pyrefactorx.api:app --reload
+
+---
+Post request exapmle:
+curl -X 'POST' 'http://127.0.0.1:8000/refactor/' -H 'Content-Type: application/json' -d '{"code": "import os\\nprint(\\"Hello\\")"}'
