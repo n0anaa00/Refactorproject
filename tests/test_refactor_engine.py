@@ -1,5 +1,5 @@
 import pytest
-from pyrefactorx.refactor_engine import RefactorEngine
+from swiftrefactor.refactor_engine import RefactorEngine
 
 def test_unused_import_removal():
     code = "import os\nprint('Hello')"

@@ -1,13 +1,8 @@
----
 
-### **📌 2. `setup.py`**
-Package installer script.  
-
-```python
 from setuptools import setup, find_packages
 
 setup(
-    name="pyrefactorx",
+    name="swiftrefactor",
     version="0.1",
     packages=find_packages(),
     install_requires=[
@@ -18,7 +13,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "pyrefactorx=pyrefactorx.cli:main"
+            "swiftrefactor=swiftrefactor.cli:main"
         ]
     }
 )
