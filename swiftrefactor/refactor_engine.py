@@ -18,7 +18,7 @@ class RefactorEngine:
         self.remove_unused_imports()
         return astor.to_source(self.tree)
 
-# Example usage
+
 if __name__ == "__main__":
     sample_code = "import os\nprint('Hello')"
     refactored_code = RefactorEngine(sample_code).refactor_code()

@@ -2,3 +2,6 @@ fastapi
 uvicorn
 astor
 pytest
+radon
+libcst
+gitpython
