@@ -1,5 +1,5 @@
 # Swiftrefactor   
-An AI-powered Python Code Refactoring Engine Project  
+Python Code Refactoring Engine Project  
 
 # Overview  
 Swiftrefactor is an Python refactoring tool that analyzes code, removes unused imports, simplifies nested loops, renames variables, and improves readability using **AST (Abstract Syntax Tree) & static analysis**.
